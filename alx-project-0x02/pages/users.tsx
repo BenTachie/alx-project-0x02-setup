@@ -1,8 +1,14 @@
 import React from "react";
+import React from "react";
 import UserCard from "@/components/common/UserCard";
 import { type UserProps } from "@/interfaces";
 import Header from "@/components/layout/Header";
 
+interface UsersPageProps {
+  users: UserProps[];
+}
+
+const UsersPage: React.FC<UsersPageProps> = ({ users }) => {
 interface UsersPageProps {
   users: UserProps[];
 }
