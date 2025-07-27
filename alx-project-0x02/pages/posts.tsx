@@ -3,6 +3,7 @@ import PostCard from "@/components/common/PostCard";
 import { type PostProps } from "@/interfaces";
 import Header from "@/components/layout/Header";
 
+// Instead of ["getStaticProps"]
 const PostsPage: React.FC = () => {
   const [posts, setPosts] = useState<PostProps[]>([]);
 
